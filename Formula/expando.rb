@@ -3,9 +3,9 @@ class Expando < Formula
 
   desc "Privacy-first open-source text expander for macOS"
   homepage "https://andreapostiglione.github.io/expando/"
-  url "https://github.com/andreapostiglione/expando/archive/refs/tags/v2.3.0.tar.gz"
-  version "2.3.0"
-  sha256 "ef5fcbc60db3b2f7696159f02a6819e65cb42355f4238693b0cb047f5fd91155"
+  url "https://github.com/andreapostiglione/expando/archive/refs/tags/v2.4.0.tar.gz"
+  version "2.4.0"
+  sha256 "efc72b384ab83246b6099595466f5a88a354d798d764e02fb9c6bae748ad086e"
   license "MIT"
 
   depends_on "python@3.12"
