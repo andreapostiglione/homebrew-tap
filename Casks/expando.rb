@@ -1,7 +1,7 @@
 cask "expando" do
-  version "3.15.0"
+  version "3.16.0"
 
-  sha256 "a6b59eecaf0d6a05e91e21d9eb7239d585616728cb28d1b19b39a5a774ad8c6d"
+  sha256 "41603491d99e17293574d163eff0f4d81c1526f030ce020932340bf846b0aa37"
 
   url "https://github.com/andreapostiglione/expando/releases/download/v#{version}/Expando.dmg"
   name "Expando"
