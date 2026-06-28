@@ -1,10 +1,11 @@
 cask "expando" do
-  version "3.29.9"
+  version "3.29.10"
 
-  sha256 "d3a6e8d3dd0e6df79078e217aa53bfa25e5e5cf74cb06d8c3d8451e47ded3a25"
+  sha256 "e6296b61b907f4040a959036312a6b8db090673cf31f1163c18dcf2e7abf69c0"
 
   url "https://github.com/andreapostiglione/expando/releases/download/v#{version}/Expando.dmg",
       verified: "github.com/andreapostiglione/expando/"
+  depends_on formula: "python@3.12"
   name "Expando"
   desc "Privacy-first open-source text expander for macOS"
   homepage "https://andreapostiglione.github.io/expando/"
